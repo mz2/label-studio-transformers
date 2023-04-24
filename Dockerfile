@@ -17,7 +17,6 @@ RUN conda install torchmetrics==0.7.3 -c pytorch -c conda-forge
 RUN conda install -c pytorch-lts pytorch
 
 RUN apt-get update && apt-get install -y \
-    cmake \
     rustc \
     cargo \
     git \
@@ -31,7 +30,7 @@ RUN apt-get update && apt-get install -y \
     python3-numpy \
     python3-pytest \
     python3-setuptools \
-    python3-wheel \
+    python3-wheel
 
 RUN python3 -m pip install --upgrade pip setuptools wheel
 RUN pip3 install pyyaml typing-extensions
