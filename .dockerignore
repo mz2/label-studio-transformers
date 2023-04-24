@@ -1,0 +1,240 @@
+# flyctl launch added from .gitignore
+# Byte-compiled / optimized / DLL files
+**/__pycache__
+**/*.py[cod]
+**/*$py.class
+
+# C extensions
+**/*.so
+
+# Distribution / packaging
+**/.Python
+**/build
+**/develop-eggs
+**/dist
+**/downloads
+**/eggs
+**/.eggs
+**/lib
+**/lib64
+**/parts
+**/sdist
+**/var
+**/wheels
+**/*.egg-info
+**/.installed.cfg
+**/*.egg
+**/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+**/*.manifest
+**/*.spec
+
+# Installer logs
+**/pip-log.txt
+**/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+**/htmlcov
+**/.tox
+**/.coverage
+**/.coverage.*
+**/.cache
+**/nosetests.xml
+**/coverage.xml
+**/*.cover
+**/.hypothesis
+**/.pytest_cache
+
+# Translations
+**/*.mo
+**/*.pot
+
+# Django stuff:
+**/*.log
+**/local_settings.py
+**/db.sqlite3
+
+# Flask stuff:
+**/instance
+**/.webassets-cache
+
+# Scrapy stuff:
+**/.scrapy
+
+# Sphinx documentation
+**/docs/_build
+
+# PyBuilder
+**/target
+
+# Jupyter Notebook
+**/.ipynb_checkpoints
+
+# pyenv
+**/.python-version
+
+# celery beat schedule file
+**/celerybeat-schedule
+
+# SageMath parsed files
+**/*.sage.py
+
+# Environments
+**/.venv
+**/env
+**/venv
+**/ENV
+**/env.bak
+**/venv.bak
+
+# Spyder project settings
+**/.spyderproject
+**/.spyproject
+
+# Rope project settings
+**/.ropeproject
+
+# mkdocs documentation
+site
+
+# mypy
+**/.mypy_cache
+
+# flyctl launch added from label-studio-ml-backend/.gitignore
+# Byte-compiled / optimized / DLL files
+label-studio-ml-backend/**/__pycache__
+label-studio-ml-backend/**/*.py[cod]
+label-studio-ml-backend/**/*$py.class
+
+# C extensions
+label-studio-ml-backend/**/*.so
+
+# Distribution / packaging
+label-studio-ml-backend/**/.Python
+label-studio-ml-backend/**/build
+label-studio-ml-backend/**/develop-eggs
+label-studio-ml-backend/**/dist
+label-studio-ml-backend/**/downloads
+label-studio-ml-backend/**/eggs
+label-studio-ml-backend/**/.eggs
+label-studio-ml-backend/**/lib
+label-studio-ml-backend/**/lib64
+label-studio-ml-backend/**/parts
+label-studio-ml-backend/**/sdist
+label-studio-ml-backend/**/var
+label-studio-ml-backend/**/wheels
+label-studio-ml-backend/**/pip-wheel-metadata
+label-studio-ml-backend/**/share/python-wheels
+label-studio-ml-backend/**/*.egg-info
+label-studio-ml-backend/**/.installed.cfg
+label-studio-ml-backend/**/*.egg
+label-studio-ml-backend/**/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+label-studio-ml-backend/**/*.manifest
+label-studio-ml-backend/**/*.spec
+
+# Installer logs
+label-studio-ml-backend/**/pip-log.txt
+label-studio-ml-backend/**/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+label-studio-ml-backend/**/htmlcov
+label-studio-ml-backend/**/.tox
+label-studio-ml-backend/**/.nox
+label-studio-ml-backend/**/.coverage
+label-studio-ml-backend/**/.coverage.*
+label-studio-ml-backend/**/.cache
+label-studio-ml-backend/**/nosetests.xml
+label-studio-ml-backend/**/coverage.xml
+label-studio-ml-backend/**/*.cover
+label-studio-ml-backend/**/*.py,cover
+label-studio-ml-backend/**/.hypothesis
+label-studio-ml-backend/**/.pytest_cache
+
+# Translations
+label-studio-ml-backend/**/*.mo
+label-studio-ml-backend/**/*.pot
+
+# Django stuff:
+label-studio-ml-backend/**/*.log
+label-studio-ml-backend/**/local_settings.py
+label-studio-ml-backend/**/db.sqlite3
+label-studio-ml-backend/**/db.sqlite3-journal
+
+# Flask stuff:
+label-studio-ml-backend/**/instance
+label-studio-ml-backend/**/.webassets-cache
+
+# Scrapy stuff:
+label-studio-ml-backend/**/.scrapy
+
+# Sphinx documentation
+label-studio-ml-backend/**/docs/_build
+
+# PyBuilder
+label-studio-ml-backend/**/target
+
+# Jupyter Notebook
+label-studio-ml-backend/**/.ipynb_checkpoints
+
+# IPython
+label-studio-ml-backend/**/profile_default
+label-studio-ml-backend/**/ipython_config.py
+
+# pyenv
+label-studio-ml-backend/**/.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+label-studio-ml-backend/**/__pypackages__
+
+# Celery stuff
+label-studio-ml-backend/**/celerybeat-schedule
+label-studio-ml-backend/**/celerybeat.pid
+
+# SageMath parsed files
+label-studio-ml-backend/**/*.sage.py
+
+# Environments
+label-studio-ml-backend/**/.env
+label-studio-ml-backend/**/.venv
+label-studio-ml-backend/**/env
+label-studio-ml-backend/**/venv
+label-studio-ml-backend/**/ENV
+label-studio-ml-backend/**/env.bak
+label-studio-ml-backend/**/venv.bak
+
+# Spyder project settings
+label-studio-ml-backend/**/.spyderproject
+label-studio-ml-backend/**/.spyproject
+
+# Rope project settings
+label-studio-ml-backend/**/.ropeproject
+
+# mkdocs documentation
+label-studio-ml-backend/site
+
+# mypy
+label-studio-ml-backend/**/.mypy_cache
+label-studio-ml-backend/**/.dmypy.json
+label-studio-ml-backend/**/dmypy.json
+
+# Pyre type checker
+label-studio-ml-backend/**/.pyre
+
+# flyctl launch added from venv/.gitignore
+# created by virtualenv automatically
+venv/**/*
+fly.toml

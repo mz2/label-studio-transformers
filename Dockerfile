@@ -14,8 +14,6 @@ RUN set -ex && \
 RUN pip3 install packaging==21.3
 RUN conda install torchmetrics==0.7.3 -c pytorch -c conda-forge
 
-# RUN pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
-# RUN conda install pytorch==1.8.2 cudatoolkit=11.1 -c pytorch -c conda-forge
 RUN conda install -c pytorch-lts pytorch
 
 RUN apt-get update && apt-get install -y \
@@ -23,21 +21,9 @@ RUN apt-get update && apt-get install -y \
     rustc \
     cargo \
     git \
-    build-essential \
-    software-properties-common \
-    autoconf \
-    automake \
-    libtool \
-    libssl-dev \
-    pkg-config \
     ca-certificates \
     wget \
     curl \
-    libjpeg-dev \
-    libpng-dev \
-    language-pack-en \
-    locales \
-    locales-all \
     python3 \
     python3-py \
     python3-dev \
@@ -46,13 +32,6 @@ RUN apt-get update && apt-get install -y \
     python3-pytest \
     python3-setuptools \
     python3-wheel \
-    libprotobuf-dev \
-    protobuf-compiler \
-    zlib1g-dev \
-    swig \
-    vim \
-    gdb \
-    valgrind
 
 RUN python3 -m pip install --upgrade pip setuptools wheel
 RUN pip3 install pyyaml typing-extensions
