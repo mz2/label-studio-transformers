@@ -14,6 +14,8 @@ from tqdm import tqdm, trange
 from tensorboardX import SummaryWriter
 from collections import deque
 
+from transformers import BERT_PRETRAINED_CONFIG_ARCHIVE_MAP, ROBERTA_PRETRAINED_CONFIG_ARCHIVE_MAP, DISTILBERT_PRETRAINED_CONFIG_ARCHIVE_MAP
+
 from transformers import (
     BertTokenizer, BertForTokenClassification, BertConfig,
     RobertaConfig, RobertaForTokenClassification, RobertaTokenizer,
@@ -31,7 +33,7 @@ logger = logging.getLogger(__name__)
 
 
 ALL_MODELS = sum(
-    [list(conf.pretrained_config_archive_map.keys()) for conf in (BertConfig, RobertaConfig, DistilBertConfig)],
+    [list(archive_map.keys()) for archive_map in (BERT_PRETRAINED_CONFIG_ARCHIVE_MAP, ROBERTA_PRETRAINED_CONFIG_ARCHIVE_MAP, DISTILBERT_PRETRAINED_CONFIG_ARCHIVE_MAP)],
     [])
 
 MODEL_CLASSES = {

@@ -1,5 +1,5 @@
-torch==1.8.1
+# torch @ git+https://github.com/pytorch/pytorch@v1.8.1
 transformers==4.4.2
 tensorboardX==1.9
 label-studio>=1.0.0
-git+git://github.com/heartexlabs/label-studio-ml-backend@master#egg=label-studio-ml
+git+https://github.com/heartexlabs/label-studio-ml-backend@master#egg=label-studio-ml
